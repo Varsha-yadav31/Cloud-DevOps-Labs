@@ -3,7 +3,13 @@
 ## Objective
 Is task ka objective ek real-world microservices-based application ka AWS par deployment cost estimate karna hai using AWS Pricing Calculator.
 
----
+---<img width="1440" height="900" alt="Screenshot 2025-12-15 at 7 42 49 PM" src="https://github.com/user-attachments/assets/aab6c6c2-23fc-43a9-8064-59691b2a9546" />
+
+
+<img width="1440" height="900" alt="Screenshot 2025-12-15 at 7 43 36 PM" src="https://github.com/user-attachments/assets/fb18e36f-3613-4217-a2d3-493b37d9f2a0" />
+
+
+
 
 Experimaent 2.pdf
 
@@ -43,6 +49,7 @@ const Ride = mongoose.model('Ride', new mongoose.Schema({
   fare: Number,
   status: { type: String, enum: ['requested', 'matched', 'completed'] }
 }));
+
 
 
 
