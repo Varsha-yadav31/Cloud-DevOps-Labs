@@ -8,6 +8,11 @@ Is task ka objective ek real-world microservices-based application ka AWS par de
 
 <img width="1440" height="900" alt="Screenshot 2025-12-15 at 7 43 36 PM" src="https://github.com/user-attachments/assets/fb18e36f-3613-4217-a2d3-493b37d9f2a0" />
 
+total
+
+<img width="1440" height="900" alt="Screenshot 2025-12-15 at 7 45 12 PM" src="https://github.com/user-attachments/assets/1a8bdf82-f718-4483-8748-28bc119bd334" />
+
+
 
 
 
@@ -49,6 +54,7 @@ const Ride = mongoose.model('Ride', new mongoose.Schema({
   fare: Number,
   status: { type: String, enum: ['requested', 'matched', 'completed'] }
 }));
+
 
 
 
