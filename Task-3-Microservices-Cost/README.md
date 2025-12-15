@@ -5,6 +5,8 @@ Is task ka objective ek real-world microservices-based application ka AWS par de
 
 ---
 
+Experimaent 2.pdf
+
 ## Architecture Overview
 Application ek microservices architecture follow karti hai, jisme alag-alag services independently deploy hoti hain aur API ke through communicate karti hain.
 
@@ -41,6 +43,7 @@ const Ride = mongoose.model('Ride', new mongoose.Schema({
   fare: Number,
   status: { type: String, enum: ['requested', 'matched', 'completed'] }
 }));
+
 
 
 
