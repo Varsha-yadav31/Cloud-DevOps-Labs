@@ -3,6 +3,11 @@
 ## Objective
 To understand Docker basics, image creation, and container deployment.
 
+##Screenshort
+
+![Uploading Screenshot 2025-12-15 at 6.55.52 PM.png…]()
+
+
 ## Tools Used
 - Docker
 - Nginx
@@ -23,3 +28,4 @@ To understand Docker basics, image creation, and container deployment.
 ```bash
 docker build -t docker-lab-app .
 docker run -d -p 8080:80 docker-lab-app
+
