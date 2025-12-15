@@ -31,6 +31,15 @@ Architecture me following components shamil hain:
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2025-12-15 at 7 47 04 PM" src="https://github.com/user-attachments/assets/44c42114-46ec-46b6-be15-799e8e2cd964" />
+
+##ss2:
+
+
+<img width="1440" height="900" alt="Screenshot 2025-12-15 at 7 47 20 PM" src="https://github.com/user-attachments/assets/e4025611-c09c-4654-a2ca-4034c54c2f84" />
+
+
+
 ## Microservices Application Description
 
 Ye application ek **ride-based system** ko represent karti hai (Uber/OLA type).
@@ -54,6 +63,7 @@ const Ride = mongoose.model('Ride', new mongoose.Schema({
   fare: Number,
   status: { type: String, enum: ['requested', 'matched', 'completed'] }
 }));
+
 
 
 
