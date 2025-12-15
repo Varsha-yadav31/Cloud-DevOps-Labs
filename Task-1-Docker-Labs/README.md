@@ -5,7 +5,8 @@ To understand Docker basics, image creation, and container deployment.
 
 ##Screenshort
 
-![Uploading Screenshot 2025-12-15 at 6.55.52 PM.png…]()
+<img width="1440" height="900" alt="Screenshot 2025-12-15 at 6 55 52 PM" src="https://github.com/user-attachments/assets/cc2e41d2-4c29-42e0-8a6f-dafaf2014cdb" />
+
 
 
 ## Tools Used
@@ -28,4 +29,5 @@ To understand Docker basics, image creation, and container deployment.
 ```bash
 docker build -t docker-lab-app .
 docker run -d -p 8080:80 docker-lab-app
+
 
