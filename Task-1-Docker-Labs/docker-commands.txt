@@ -1,0 +1,22 @@
+# Check docker version
+docker --version
+#my docker vesion
+Docker version 20.10.23, build 7155243
+
+# Build docker image
+docker build -t docker-lab-app .
+
+# List docker images
+docker images
+
+# Run docker container
+docker run -d -p 8080:80 docker-lab-app
+
+# Check running containers
+docker ps
+
+# Stop container
+docker stop <container_id>
+
+# Remove container
+docker rm <container_id>
